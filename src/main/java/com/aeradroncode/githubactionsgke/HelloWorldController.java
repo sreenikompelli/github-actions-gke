@@ -10,6 +10,6 @@ public class HelloWorldController {
     @RequestMapping("/")
     @ResponseBody
     public String helloWorld(){
-        return "Hello World From GKE Via Github Actions Updated!";
+        return "Hello World From GKE Via Github Actions Updated and Deployed!";
     }
 }
