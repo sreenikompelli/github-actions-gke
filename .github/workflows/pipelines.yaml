@@ -1,6 +1,7 @@
 name: Build and Deploy to GKE
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -16,7 +17,7 @@ env:
 jobs:
   setup-build-publish-deploy:
     name: Setup Build Publish Deploy
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 

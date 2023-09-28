@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk:17-jdk-hotspot-focal
 
 EXPOSE 8089
 
