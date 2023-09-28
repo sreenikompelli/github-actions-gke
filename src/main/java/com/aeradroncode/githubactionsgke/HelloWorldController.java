@@ -10,6 +10,6 @@ public class HelloWorldController {
     @RequestMapping("/")
     @ResponseBody
     public String helloWorld(){
-        return "Welcome to Pyxos.AI App.";
+        return "Welcome to Pyxos.AI App V1.";
     }
 }
