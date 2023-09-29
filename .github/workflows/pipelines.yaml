@@ -28,6 +28,7 @@ jobs:
         with:
           java-version: 17
           server-id: github
+          distribution: AdoptOpenJDK
           settings-path: ${{ github.workspace }}
 
       - name: Build with Gradle
